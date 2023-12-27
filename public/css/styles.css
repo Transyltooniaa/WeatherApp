@@ -1,0 +1,128 @@
+body {
+    background: linear-gradient(to top left, #28b487, #7dd56f);
+    font-family: arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+    left: 75px;
+    top : 30vh;
+    text-transform:capitalize;
+}
+
+
+.main-content {
+    flex-grow: 1;
+}
+
+footer {
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.portrait {
+    width: 250px;
+}
+
+input {
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 8px;
+}
+
+.pic img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.headerName{
+    position: relative;
+    top :  -28vh;
+    right: 300px;
+}
+
+.links a{
+    position: relative;
+    top :  -28vh;
+    right: 291px;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-right: 20px;
+    color : maroon;
+}
+
+.message{
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-right: 20px;
+    color : blue;
+    position: relative;
+    top :  -18vh;
+    right: 291px;
+}
+
+.footerp{
+    position: absolute;
+    bottom: 400px;
+    left: 100px;
+    /* making bold */
+    font-weight: bold;
+
+    color : brown;
+}
+
+.message1{
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-right: 20px;
+    color : rgb(187, 0, 255);;
+    position: relative;
+    top : 3vh;
+    right: -10px;
+}
+
+.message2{
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-right: 20px;
+    color : rgb(187, 0, 255);
+    position: relative;
+    top :  5vh;
+    right: 30px;
+}
